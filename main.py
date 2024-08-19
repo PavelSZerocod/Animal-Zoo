@@ -70,3 +70,11 @@ mammal.eat()
 reptile = Reptile("Крокс", 10)
 reptile.make_sound()
 reptile.eat()
+
+animals = [Bird("Чык-Чырык", 2), Mammal("Буренка", 5), Reptile("Крокс", 10)]
+
+def animal_sound():
+    for animal in animals:
+        animal.make_sound()
+
+animal_sound()
